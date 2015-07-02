@@ -62,7 +62,6 @@ h1 {
 }
 
 /* Hamburger Menu */
-
 #hamburger {
   position: absolute;
   right: 2em;
@@ -83,12 +82,6 @@ h1 {
   right: -2.8em;
   top: -1.5em;
 }
-
-.dd {
-  
-
-}
-
 
 .dd-list {
   position: absolute;
@@ -122,11 +115,6 @@ h1 {
 }
 
 /* Regular Nav menu */
-
-#logo {
-
-}
-
 #logo-image {
   display: inline-block;
   position: relative;
@@ -167,7 +155,7 @@ h1 {
   opacity: 1;
 }
 
-/* Breakpoint: make hamburger drop down appear */
+/* Breakpoint: make hamburger drop down app ear */
 @media (max-width: 671px) {
   .button-nav {
     display: none;
@@ -184,8 +172,6 @@ h1 {
   }  
 }
 
-
-
 .button-nav:hover, .button-nav:focus {
   text-decoration: none;
   color: #999;
@@ -194,7 +180,6 @@ h1 {
 }
 
 /* Styling for regular button */
-
 .button-regular {
   text-decoration: none;
   text-align: center;
@@ -239,42 +224,10 @@ h1 {
   }
 }
 
+/* Home page */
 /* Section 1 */
-
 .section1 {
   background: url("../img/Security/Security2-edit.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.guard-service-section1 {
-  background: url("../img/Security/security1-edit.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.armored-truck-service-section1{
-  background: url("../img/armoured-truck/Nash_Bearcat.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.parking-management-service-section1{
-  background: url("../img/Parking/Parking3.jpeg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.protective-services-section1{
-  background: url("../img/Protective-Services/protective1.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -311,46 +264,12 @@ h1 {
   text-align: center;
 }
 
-.contact-section1 {
-  margin: 0;
-  max-width: 100%;
-  min-height: 36.4em;
-}
-
-.contact-h1 {
-  text-align: left;
-  position: absolute;
-  top: -2em;
-  color: black;
-}
-
-.contact-section-text1 {
-  text-align: left;
-  color: black;
-}
-
-.contact-section-text2 {
-  text-align: left;
-  color: black;
-  margin-bottom:-1em;
-}
-
 /* Section 2 */
-
 .section2{
   position: relative;
   margin-top: -2em;
   width:100%;
   min-height:30em;
-  background-color: white;
-  display: block;
-}
-
-.locations-section2{
-  position: relative;
-  margin-top: -2em;
-  width:100%;
-  min-height:38.4em;
   background-color: white;
   display: block;
 }
@@ -361,12 +280,6 @@ h1 {
   padding-top: 3em;
   padding-bottom: 3em;
   }
-
-.locations-section-header2 {
-  margin-top:1.3em;
-  margin-bottom: -1em;
-  color: black;
-}
 
 .section-header2{
  color: black;
@@ -389,79 +302,14 @@ h1 {
     left: 20%;
     position: relative;
   }
-
-  .section-header2{
-  }
-
-  .section-text2{
-    
-  }
-
-
-}
-
-.locations-world-map {
-  margin-top: 5em;
-  position: relative;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Section 3 */
-
 .section3 {
-    position: relative;
-    margin-bottom: -1em;
-
-    background: url("../img/general-security/372171576_99f0d8fb6d_o.jpg") no-repeat;
-    background-size: cover;
-    margin: 0;
-    max-width: 100%;
-    height: 50em;
-  }
-
-.guard-service-section3 {
   position: relative;
   margin-bottom: -1em;
-  background: url("../img/Security/Security4.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
 
-.armored-truck-service-section3{
-  position: relative;
-  margin-bottom: -1em;
-  background: url("../img/armoured-truck/knight-xv.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.parking-management-service-section3{
-  position: relative;
-  margin-bottom: -1em;
-  background: url("../img/Parking/Parking7.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.parking-management-section-header3 {
-  font-size:2.6rem;
-  line-height: 1em;
-  z-index: 1;
-  font-weight: 900;
-}
-
-.protective-services-section3{
-  position: relative;
-  margin-bottom: -1em;
-  background: url("../img/Protective-Services/protective2.jpg") no-repeat;
+  background: url("../img/general-security/372171576_99f0d8fb6d_o.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -476,15 +324,14 @@ h1 {
 
 .section-header3 {
     text-align: left;
-  }
+}
 
 .section-text3 {
     text-align: left;
     color: white;
-  }
+}
 
 /* Section 4 */
-
 .section4 {
   position: relative;
   margin-bottom: -1em;
@@ -494,24 +341,7 @@ h1 {
   display: block;
 }
 
-.services-section4 {
-  position: relative;
-  margin-bottom: -1em;
-  width:100%;
-  min-height:45em;
-  background-color: white;
-  display: block;
-}
-
-.services-section4-content {
-  position: absolute;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  top: 8em;
-}
-
 .section4-content {
-  position: absolute;
   padding-top: 3em;
   padding-bottom: 3em;
 }
@@ -532,67 +362,12 @@ h1 {
   margin-right: auto;
 }
 
-.services-section4-icon {
-  width: 10%;
-  height: 8em;
-  border: solid 1px #333;
-  margin: 3em 0.3em;
-  border-radius: 0.5em;
-  display: inline-block;
-}
-
 /* Section 5 */
-
 .section5 {
   position: relative;
   margin-bottom: -1em;
 
   background: url("../img/Security/police2.png") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.guard-service-section5 {
-  position: relative;
-  margin-bottom: -1em;
-
-  background: url("../img/general-security/8275496299_8598cbe14a_o.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.armored-truck-service-section5{
-  position: relative;
-  margin-bottom: -1em;
-
-  background: url("../img/armoured-truck/2009-conquest-knight-xv-rear-angle-1024x768.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-.parking-management-service-section5{
-  position: relative;
-  margin-bottom: -1em;
-
-  background: url("../img/Parking/Parking2.jpg") no-repeat;
-  background-size: cover;
-  margin: 0;
-  max-width: 100%;
-  height: 50em;
-}
-
-
-.protective-services-section5{
-  position: relative;
-  margin-bottom: -1em;
-
-  background: url("../img/Protective-Services/protective3.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -613,57 +388,231 @@ h1 {
   color: white;
 }
 
-
 /* Text input box */
-form {
-  display: inline-block;
+.left-form {
   position: absolute;
-  left: 20%;
-  margin-top: 1em;
+  width: 50%;
+}
 
+.right-form {
+  position: absolute;
+  left: 50%;
+  width: 50%;
 }
 
 label {
-  display: block; /* stack forms */
-  color: white;
-  margin-bottom: 0.5em;
-  font-size: 1.5em;
-  margin-left: -3.5em;
+  display: block;
+  color: #333;
+  text-align: left;
+  padding-top: 0.5em;
 }
 
-textarea {
-  width: 15em;
-  height: 5em;
+#form-subject {
+  width: 85%;
+  padding: 0.5em;
 }
 
-input {
-  margin-left: -2em;
-}
-
-/* Get rid of ugly border on submit form button */
 input[type="submit"] {
   display: block;
-  margin-top: 1em;
-  margin-left: 0em;
+  position: relative;
+  width: 20em;
+  margin-top: 28em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styling for submit buttons */
 .button-submit {
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 2px;
   border: 1px solid #FFF;
   padding: 0.75em 0.5em;
   color: #FFF;
   background-color: #333;
   text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 .button-submit:hover, .button-submit:focus {
-  background-color: #999;
+  color: #999;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+
+/* Services page */
+.services-section-header {
+  font-size:2.6rem;
+  line-height: 1em;
+  z-index: 1;
+  font-weight: 900;
+  color: black;
+  position: relative;
+  width: 9.1em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.services-section-body {
+  text-align: center;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.services-section {
+  position: relative;
+  margin-bottom: -1em;
+  width: 100%;
+  min-height: 53em;
+  max-height: 100000em;
+  display: block;
+  background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;
+}
+
+.services-section-content {
+  position: absolute;
+  padding-bottom: 3em;
+  top: 8em;
+  width: 100%;
+  
+}
+
+.services-icons {
+  width: 64.9em;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.services-column {
+  width: 14em;
+  border: 1px solid rgb(51, 51, 51);
+  margin: 3em 1em;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 1em;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  background: #FFF;
+}
+
+
+.services-individual-icon {
+  width: 8em;
+  height: 8em;
+}
+
+.services-column a {
+  text-decoration: none;
+  color: #333;
+}
+
+@media (max-width:1038px) {
+  .services-icons {
+    width: 32.45em;
+  }
+
+  .services-column {
+    margin: 1em 1em;
+  }
+}
+
+@media (max-width:519px) {
+  .services-icons {
+    width: 16.225em;
+  }
+}
+
+/* Consultation page */
+.consultation-section-content {
+  position: absolute;
+  top: 6em;
+}
+
+.consultation-section {
+  min-height: 50em;
+  position: relative;
+  max-width: 42em;
+  margin: 0em auto;
+}
+
+.consultation-header {
+  text-align: left;
+  top: -2em;
+  color: black;
+}
+
+.consultation-section-text {
+  text-align: left;
+  color: black;
+}
+
+@media (max-width:671px) {
+  .left-form {
+    position: relative;
+    width: 100%;
+  }
+
+  .right-form {
+    position: relative;
+    width: 100%;
+    left: 0;
+  
+  }
+
+  .consultation-section-content {
+  position: absolute;
+  left:10%;
+  width:80%;
+  top: 6em;
+  }
+
+  #form-subject {
+    width:100%;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+  }
+}
+
+/* Security Guard Service */
+.guard-service-section1 {
+  background: url("../img/Security/security1-edit.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.guard-service-section3 {
+  position: relative;
+  margin-bottom: -1em;
+  background: url("../img/Security/Security4.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.guard-service-section5 {
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/general-security/8275496299_8598cbe14a_o.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
 }
 
 /* Footer */
-
 #footer {
   width: 100%;
   height: 3.5em;
@@ -673,7 +622,6 @@ input[type="submit"] {
 }
 
 .footer-content {
-  /*max-width: 886px;*/
   margin: auto;
 }
 
