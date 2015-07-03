@@ -407,7 +407,7 @@ label {
   padding-top: 0.5em;
 }
 
-#form-subject {
+#consultation-form {
   width: 85%;
   padding: 0.5em;
 }
@@ -416,7 +416,7 @@ input[type="submit"] {
   display: block;
   position: relative;
   width: 20em;
-  margin-top: 28em;
+  /*margin-top: 28em;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -439,7 +439,6 @@ input[type="submit"] {
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
-
 
 /* Services page */
 .services-section-header {
@@ -468,15 +467,15 @@ input[type="submit"] {
   margin-bottom: -1em;
   width: 100%;
   min-height: 53em;
-  max-height: 100000em;
+  max-height: 100000000px;
   display: block;
-  background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;
+  /*background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;*/
 }
 
 .services-section-content {
   position: absolute;
   padding-bottom: 3em;
-  top: 8em;
+  top: 6em;
   width: 100%;
   
 }
@@ -497,7 +496,8 @@ input[type="submit"] {
   padding: 1em;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
   text-align: center;
-  background: #FFF;
+  /*background: #FFF;*/
+  background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;
 }
 
 
@@ -523,7 +523,19 @@ input[type="submit"] {
 
 @media (max-width:519px) {
   .services-icons {
-    width: 16.225em;
+    /*width: 16.225em;*/
+    width: 100%;
+  }
+
+  .services-column {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    margin: 1em 0em;
+  }
+
+  .services-section-body {
+    width: 80%;
   }
 }
 
@@ -571,7 +583,7 @@ input[type="submit"] {
   top: 6em;
   }
 
-  #form-subject {
+  #consultation-form {
     width:100%;
   }
 
@@ -580,6 +592,17 @@ input[type="submit"] {
     margin-top: 3em;
     margin-bottom: 4em;
   }
+}
+
+@media (max-width: 542px) {
+  .consultation-header {
+    font-size: 1.5em;
+  }
+}
+
+.consultation-submit {
+  margin-top: 28em;
+  margin-bottom: 3em;
 }
 
 /* Security Guard Service */
@@ -612,13 +635,53 @@ input[type="submit"] {
   height: 50em;
 }
 
+/* Contact page */
+.contact-section {
+  top: 4em;
+  position: relative;
+  max-width: 42em;
+  margin: 0em auto;
+}
+
+.contact-h1 {
+  text-align: left;
+  position: relative;
+  color: #333;
+}
+
+.contact-section-text1 {
+  position: relative;
+  text-align: left;
+  color: #333;
+}
+
+.contact-section-text2 {
+  position: relative;
+  text-align: left;
+  color: #333;
+}
+
+#contact-form {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.contact-form-wrapper {
+
+}
+
+.contact-submit {
+  margin-top: 3em;
+  margin-bottom: 10em;
+}
+
 /* Footer */
 #footer {
   width: 100%;
   height: 3.5em;
   background-color: #333;
   margin-top: -0.2em;
-  position: relative;
+  position: absolute;
 }
 
 .footer-content {
@@ -663,6 +726,7 @@ input[type="submit"] {
     float: none;
     margin: none;
     padding-top: 1.5em;
+    margin-top: 0;
   }
 
   .social-links {
