@@ -209,7 +209,8 @@ h1 {
 
 .home-bottom-button {
   width: 16em;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1em;
 }
 
@@ -227,7 +228,7 @@ h1 {
 /* Home page */
 /* Section 1 */
 .section1 {
-  background: url("../img/Security/Security2-edit.jpg") no-repeat;
+  background: url("../img/Security/Security2-1.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -252,7 +253,7 @@ h1 {
 }
 
 .section-text1 {
-  color:#eee;
+  color:white;
 }
 
 .section-button1 {
@@ -276,7 +277,6 @@ h1 {
 
 .section2-content {
   position: relative;
-  top: 1em;
   padding-top: 3em;
   padding-bottom: 3em;
   }
@@ -309,7 +309,7 @@ h1 {
   position: relative;
   margin-bottom: -1em;
 
-  background: url("../img/general-security/372171576_99f0d8fb6d_o.jpg") no-repeat;
+  background: url("../img/general-security/securityguard3-1.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -367,7 +367,7 @@ h1 {
   position: relative;
   margin-bottom: -1em;
 
-  background: url("../img/Security/police2.png") no-repeat;
+  background: url("../img/Security/police2-1.png") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -380,11 +380,11 @@ h1 {
 }
 
 .section-header5 {
-  text-align: left;
+  text-align: center;
 }
 
 .section-text5 {
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
@@ -407,10 +407,38 @@ label {
   padding-top: 0.5em;
 }
 
+.separate-form {
+  float: left;
+}
+
+.credit-card-info {
+  width: 100%;
+  margin-top: 20em;
+}
+
 #consultation-form {
   width: 85%;
   padding: 0.5em;
 }
+
+#credit-card-form {
+  margin-right: 1.5em;
+  width: 20em;
+  padding: 0.5em;
+}
+
+#security-code-form {
+  margin-right: 1.5em;
+  width: 10em;
+  padding: 0.5em;
+}
+
+#expiration-date-form {
+  width: 11.2em;
+  padding: 0.5em;
+  margin-bottom: 2em;
+}
+
 
 input[type="submit"] {
   display: block;
@@ -419,6 +447,13 @@ input[type="submit"] {
   /*margin-top: 28em;*/
   margin-left: auto;
   margin-right: auto;
+}
+
+
+@media(max-width:671px) {
+  .credit-card-info {
+    margin-top: 0;
+  }
 }
 
 /* Styling for submit buttons */
@@ -469,7 +504,6 @@ input[type="submit"] {
   min-height: 53em;
   max-height: 100000000px;
   display: block;
-  /*background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;*/
 }
 
 .services-section-content {
@@ -601,14 +635,14 @@ input[type="submit"] {
 }
 
 .consultation-submit {
-  margin-top: 28em;
+  margin-top: 32em;
   margin-bottom: 3em;
 }
 
 /* Security Guard Service */
 /* Section 1 */
 .guard-service-section1 {
-  background: url("../img/Security/security1-edit.jpg") no-repeat;
+  background: url("../img/Security/securityguard1-1.jpg") no-repeat;
   background-size: cover;
   margin: 0;
   max-width: 100%;
@@ -723,7 +757,7 @@ input[type="submit"] {
 }
 
 .security-types-picture{
-  height: 250px;
+  height: 400px;
   margin-top: 3em;
   left: 47%;
   position: absolute;
@@ -916,28 +950,37 @@ input[type="submit"] {
 }
 
 .security-types-picture1{
-  height: 250px;
+  width: 480px;
   margin-top: 3em;
   right: 50%;
   position: absolute;
 }
 
-@media (max-width:1038px) {
+@media (max-width:1040px) {
   .security-types-picture1 {
-    width: 80%;
+    width: 60%;
     height: auto;
     position: relative;
-    left: 0;
+    left: 5%;
   }
 }
 
 /* Section 6 */
+
+/*.guard-service-section1 {
+  background: url("../img/Security/securityguard1-1.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}*/
 .services-section3 {
+  background: url("../img/prestige1.jpg") no-repeat;
+  background-size: cover;
   position: relative;
   margin-bottom: -1em;
   width: 100%;
-  min-height: 50em;
-  max-height: 100000000px;
+  min-height: 45em;
   display: block;
 }
 
@@ -1100,6 +1143,20 @@ input[type="submit"] {
   margin-top: 1em;
   margin-right: 2em;
   color: #FFF;
+}
+
+/* Events */
+.event-section {
+  min-height: 90em;
+}
+
+/* Thank you/Order received */
+.thanks-header {
+  color: #333;
+}
+
+.thanks-section-text {
+  color: #333;
 }
 
 
