@@ -1,0 +1,205 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: inline-block;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  white-space: pre;
+  display: block;
+}
+
+/* Responsive Images */
+img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  /*border-radius: 0.25em;*/
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: #999;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+/* Styling for submit buttons */
+.button-submit {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.75em 0.5em;
+  color: #FFF;
+  background-color: #333;
+  /*border-radius: 0.25em;*/
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus {
+  color: #999;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+/* Text input box */
+form {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid black;
+  /*width: 80%;*/
+}
+
+label {
+  display: block; /* stack forms */
+}
+
+textarea {
+  /*border: 1px solid black;*/
+  width: 165px;
+}
+
+input {
+  /*border: 1px solid black;*/
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  margin: auto;
+}
+
+/* Get rid of ugly border on submit form button */
+input[type="submit"] {
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.spacing {
+  padding: 1em 0em;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+
+  FONT CLASSES ELEMENTS -------------------
+*/
+
+.helvetica-bold{
+  margin:0em;
+  font-size: 3em;
+}
+
+.helvetica-bold-italic{
+  font-size: 3em;
+  margin:0em;
+  font-style: italic;
+}
+
+.helvetica-standard{
+  margin-top:0.3em;
+  margin-bottom:0em;
+  font-weight: 100;
+  font-size:3em;
+}
+
+.helvetica-standard-italic{
+  margin:0em;
+  font-weight: 100;
+  font-size:3em;
+  font-style: italic;
+}
+
+/* 
+  HEADING CLASSES ELEMENTS ----------------
+*/
+
+.header-one{
+  margin-top: 0em;
+  margin-bottom: -0.3em;
+  font-size: 4em;
+}
+
+.header-two{
+  margin-top: 0.5em;
+  margin-bottom: -0.3em;
+  font-size: 3em;
+}
+
+.header-three{
+  margin-top:0.5em;
+  margin-bottom: -0.3em;
+  font-size: 2em;
+}
+
+/* Product listing classes */
+.example-product-list {
+  width: 80%;
+}
+
+div div a p.product-name {
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+}
+
+.product-layout {
+  width: 200px;
+  display: inline-block;
+  margin: 1em;
+}
+
+a.product-link {
+  text-decoration: none;
+  color: #288BB2;
+}
+
+a.product-link:hover, a.product-link:focus {
+  text-decoration: underline;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/

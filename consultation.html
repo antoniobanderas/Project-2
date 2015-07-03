@@ -14,7 +14,7 @@
 	<div id="nav-bar">
 		<a href="index.html">
 			<div id="logo">
-				<img id="logo-image" src="img/temp-logo.png">
+				<img id="logo-image" src="img/temp-logo.png" alt="security guard icon">
 				<p id="logo-text">Security+</p>
 			</div>
 		</a>
@@ -26,7 +26,7 @@
 		<div class="dd">
 			<div id="hamburger">
 				<p id="hamburger-text"><br>Menu<br><br></p>
-				<img id="hamburger-icon" src="img/hamburger.png">
+				<img id="hamburger-icon" src="img/hamburger.png" alt="an icon of a hamburger">
 			</div>
 			
 			<div class="dd-list">
@@ -48,64 +48,70 @@
 				</div>
 			</div><!-- End of grid -->
 
-			<form class="left-form" method="post" action="#">
+			<form id="left-form" method="post" action="#">
 				 
-	        	<label for="form-name">What type of business is it?</label>
+	        	<label for="consultation-form">What type of business is it?</label>
 	        	<input type="text" id="consultation-form" placeholder="Brief description">
 	        
-		        <label for="form-subject">Estimated annual revenue</label>
-		        <input type="text" id="consultation-form" placeholder="Enter Amount">
+		        <label for="consultation-form1">Estimated annual revenue</label>
+		        <input type="text" id="consultation-form1" placeholder="Enter Amount">
 
-		        <label for="form-subject">Business email</label>
-		        <input type="text" id="consultation-form" placeholder="you@example.com">
+		        <label for="consultation-form2">Business email</label>
+		        <input type="text" id="consultation-form2" placeholder="you@example.com">
 
-		        <label for="form-subject">What is your business name?</label>
-		        <input type="text" id="consultation-form" placeholder="Business Name">
+		        <label for="consultation-form3">What is your business name?</label>
+		        <input type="text" id="consultation-form3" placeholder="Business Name">
 
-		        <label for="form-subject">Your name</label>
-		        <input type="text" id="consultation-form" placeholder="First Name">
+		        <label for="consultation-form4">Your name</label>
+		        <input type="text" id="consultation-form4" placeholder="First Name">
 
 			</form>
 
-			<form class="right-form" method="post" action="#">
+			<form id="right-form" method="post" action="#">
 				 
-	        	<label for="form-name">Business category</label>
-	        	<input type="text" id="consultation-form" placeholder="Category">
+	        	<label for="consultation-form5">Business category</label>
+	        	<input type="text" id="consultation-form5" placeholder="Category">
 	        
-		        <label for="form-subject">How do you plan on using Security+?</label>
-		        <input type="text" id="consultation-form" placeholder="Brief description">
+		        <label for="consultation-form6">How do you plan on using Security+?</label>
+		        <input type="text" id="consultation-form6" placeholder="Brief description">
 
-		        <label for="form-subject">Phone Number</label>
-		        <input type="text" id="consultation-form" placeholder="(000)-000-0000">
+		        <label for="consultation-form7">Phone Number</label>
+		        <input type="text" id="consultation-form7" placeholder="(000)-000-0000">
 
-		        <label for="form-subject">Postal Code</label>
-		        <input type="text" id="consultation-form" placeholder="Postal Code">
+		        <label for="consultation-form8">Postal Code</label>
+		        <input type="text" id="consultation-form8" placeholder="Postal Code">
 
-		        <label for="form-subject">Last name</label>
-		        <input type="text" id="consultation-form" placeholder="Last Name">
+		        <label for="consultation-form9">Last name</label>
+		        <input type="text" id="consultation-form9" placeholder="Last Name">
 
 			</form>
 	        
-			<form class="middle-form" method="post" action="#">
+			<form id="credit-card-info1" method="post" action="#">
 				<div class="credit-card-info">
 					<div class="separate-form">
-						<label for="form-name">Credit Card Number</label>
+						<label for="credit-card-form">Credit Card Number</label>
 			        	<input type="text" id="credit-card-form" placeholder="XXXX-XXXX-XXXX-XXXX">
 		        	</div>
+		        </div>
+		    </form>
 
-		        	<div class="separate-form">
-			        	<label for="form-name">Security Code</label>
-			        	<input type="text" id="security-code-form" placeholder="***">
-		        	</div>
+		    <form id="credit-card-info2" method="post" action="#">
+	        	<div class="separate-form">
+		        	<label for="security-code-form">Security Code</label>
+		        	<input type="text" id="security-code-form" placeholder="***">
+	        	</div>
+		    </form>
 
-		        	<div class="separate-form">
-			        	<label for="form-name">Expiration Date</label>
-			        	<input type="text" id="expiration-date-form" placeholder="MM/DD/YY">
-		        	</div>
+		    <form id="credit-card-info3" method="post" action="#">
+	        	<div class="separate-form">
+		        	<label for="expiration-date-form">Expiration Date</label>
+		        	<input type="text" id="expiration-date-form" placeholder="MM/DD/YY">
 	        	</div>
 			</form>
 
-			<a style="text-decoration: none" href="thank-you.html"><input type="submit" value="Submit" class="button-submit consultation-submit"></a>
+			<form action="thank-you.html">
+				<input type="submit" value="Submit" class="button-submit consultation-submit">
+			</form>
 
 		</div>
 	</div> 

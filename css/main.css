@@ -389,12 +389,13 @@ h1 {
 }
 
 /* Text input box */
-.left-form {
+#left-form {
   position: absolute;
   width: 50%;
 }
 
-.right-form {
+
+#right-form {
   position: absolute;
   left: 50%;
   width: 50%;
@@ -421,6 +422,51 @@ label {
   padding: 0.5em;
 }
 
+#consultation-form1 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form2 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form3 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form4 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form5 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form6 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form7 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form8 {
+  width: 85%;
+  padding: 0.5em;
+}
+
+#consultation-form9 {
+  width: 85%;
+  padding: 0.5em;
+}
+
 #credit-card-form {
   margin-right: 1.5em;
   width: 20em;
@@ -434,11 +480,11 @@ label {
 }
 
 #expiration-date-form {
-  width: 11.2em;
+  margin-right: 1.5em;
+  width: 11em;
   padding: 0.5em;
   margin-bottom: 2em;
 }
-
 
 input[type="submit"] {
   display: block;
@@ -598,28 +644,64 @@ input[type="submit"] {
 }
 
 @media (max-width:671px) {
-  .left-form {
+  #left-form {
     position: relative;
     width: 100%;
   }
 
-  .right-form {
+  #right-form {
     position: relative;
     width: 100%;
     left: 0;
-  
   }
 
   .consultation-section-content {
-  position: absolute;
-  left:10%;
-  width:80%;
-  top: 6em;
+    position: absolute;
+    left:10%;
+    width:80%;
+    top: 6em;
   }
 
   #consultation-form {
     width:100%;
   }
+
+  #consultation-form1 {
+    width:100%;
+  }
+
+  #consultation-form2 {
+    width:100%;
+  }
+
+  #consultation-form3 {
+    width:100%;
+  }
+
+  #consultation-form4 {
+    width:100%;
+  }
+
+  #consultation-form5 {
+    width:100%;
+  }
+
+  #consultation-form6 {
+    width:100%;
+  }
+
+  #consultation-form7 {
+    width:100%;
+  }
+
+  #consultation-form8 {
+    width:100%;
+  }
+
+  #consultation-form9 {
+    width:100%;
+  }
+
 
   input[type="submit"] {
     width: 100%;
@@ -1092,6 +1174,26 @@ input[type="submit"] {
 }
 
 #contact-form {
+  width: 100%;
+  padding: 0.5em;
+}
+
+#contact-form1 {
+  width: 100%;
+  padding: 0.5em;
+}
+
+#contact-form2 {
+  width: 100%;
+  padding: 0.5em;
+}
+
+#contact-form3 {
+  width: 100%;
+  padding: 0.5em;
+}
+
+#contact-form4 {
   width: 100%;
   padding: 0.5em;
 }
