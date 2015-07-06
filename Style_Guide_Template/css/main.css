@@ -1,9 +1,7 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-*/
+@import url(http://fonts.googleapis.com/css?family=Hind:400,700);
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   padding: 2rem;
 }
 
@@ -41,6 +39,15 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #288BB2;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -60,6 +67,7 @@ img {
 
 .button-nav:hover, .button-nav:focus {
   color: #999;
+  text-decoration:none;
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
@@ -83,35 +91,76 @@ img {
   transition: color 0.5s ease-out;
 }
 
-/* Text input box */
-form {
+/* Styling for regular button */
+.button-regular {
+  text-decoration: none;
+  text-align: center;
   display: inline-block;
-  padding: 1rem;
-  border: 1px solid black;
-  /*width: 80%;*/
+  padding: 1em 3em;
+  color: #FFF;
+  background-color: #288BB2;
+  border-radius: 0.2em;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
-label {
-  display: block; /* stack forms */
+.button-regular:hover, .button-regular:focus {
+  background-color: #227893;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
-textarea {
-  /*border: 1px solid black;*/
-  width: 165px;
+/* Text input box */
+.contact-h1 {
+  text-align: left;
+  position: relative;
+  color: #333;
 }
 
-input {
-  /*border: 1px solid black;*/
-  margin-top: 0.25em;
-  margin-bottom: 1em;
-  margin: auto;
+.contact-section-text1 {
+  position: relative;
+  text-align: left;
+  color: #333;
 }
 
-/* Get rid of ugly border on submit form button */
-input[type="submit"] {
-  border: none;
-  display: block;
-  margin: auto;
+.contact-section-text2 {
+  position: relative;
+  text-align: left;
+  color: #333;
+}
+
+#contact-form {
+  width: 200px;
+  padding: 0.5em;
+  display:block;
+}
+
+#contact-form1 {
+  width: 200px;
+  padding: 0.5em;
+  display:block;
+}
+
+#contact-form2 {
+  width: 200px;
+  padding: 0.5em;
+  display:block;
+}
+
+#contact-form3 {
+  width: 200px;
+  padding: 0.5em;
+  display:block;
+}
+
+#contact-form4 {
+  width: 200px;
+  padding: 0.5em;
+  display:block;
+}
+
+.contact-submit {
   margin-top: 1em;
 }
 
@@ -127,30 +176,6 @@ input[type="submit"] {
   FONT CLASSES ELEMENTS -------------------
 */
 
-.helvetica-bold{
-  margin:0em;
-  font-size: 3em;
-}
-
-.helvetica-bold-italic{
-  font-size: 3em;
-  margin:0em;
-  font-style: italic;
-}
-
-.helvetica-standard{
-  margin-top:0.3em;
-  margin-bottom:0em;
-  font-weight: 100;
-  font-size:3em;
-}
-
-.helvetica-standard-italic{
-  margin:0em;
-  font-weight: 100;
-  font-size:3em;
-  font-style: italic;
-}
 
 /* 
   HEADING CLASSES ELEMENTS ----------------
@@ -175,29 +200,24 @@ input[type="submit"] {
 }
 
 /* Product listing classes */
-.example-product-list {
-  width: 80%;
-}
 
-div div a p.product-name {
-  text-decoration: none;
-  font-size: 1em;
-  text-align: center;
-}
-
-.product-layout {
-  width: 200px;
+.services-column {
+  width: 14em;
+  border: 1px solid rgb(51, 51, 51);
+  margin: 3em 1em;
+  border-radius: 4px;
   display: inline-block;
-  margin: 1em;
+  padding: 1em;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  color:black;
+  background: linear-gradient(to bottom, #F8F8F8, #E9E9E9) repeat scroll 0% 0% #EEE;
 }
 
-a.product-link {
-  text-decoration: none;
-  color: #288BB2;
-}
 
-a.product-link:hover, a.product-link:focus {
-  text-decoration: underline;
+.services-individual-icon {
+  width: 8em;
+  height: 8em;
 }
 
 /* 

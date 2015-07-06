@@ -71,13 +71,13 @@
         <h2>Submit/Reset Buttons</h2>
 
         <h3>CSS selector:</h3>
-        <p>.button-submit</p>
+        <p>.button-regular</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-submit"&gt;Submit Button&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button-regular"&gt;Submit Button&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-submit" href="#">Submit Button</a>
+        <a class="button-regular" href="#">Submit Button</a>
       </section>
 
       <section>
@@ -108,22 +108,26 @@
 
         <h3>Rendered Element:</h3>
 
-        <form method="post" action="#">
-
-        <label for="form-name">Name:</label>
+        <form class="contact-form-wrapper" method="post" action="#">
+       
+          <label for="contact-form">Enter your name</label>
+          <input type="text" id="contact-form" placeholder="Name">
         
-        <input type="text" id="form-name" placeholder="Jane Doe">
+          <label for="contact-form1">Enter your email</label>
+          <input type="text" id="contact-form1" placeholder="you@example.com">
 
-        <label for="form-subject">Subject:</label>
-        <input type="text" id="form-subject" placeholder="A title for your comment">
-        
-        <label for="form-comment">Comment:</label>
-        
-        <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+          <label for="contact-form2">Subject</label>
+          <input type="text" id="contact-form2" placeholder="Enter subject">
 
-        <input type="submit" value="Submit your comment" class="button-submit">
+          <label for="contact-form3">Phone Number</label>
+          <input type="text" id="contact-form3" placeholder="(000)-000-0000">
+
+          <label for="contact-form4">Comment</label>
+          <textarea id="contact-form4" placeholder="Please place comment here"></textarea>
 
         </form>
+
+        <input type="submit" value="Submit" class="button-submit contact-submit">
       </section>
 
     </section>
@@ -132,27 +136,6 @@
 
     <!-- TEXT ELEMENTS SECTION // -->
     <section id="text_elements">
-      <section>
-        <h2>Font</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>.helvetica-bold, .helvetica-bold-italic, .helvetica-standard, .helvetica-standard-italic</p>
-
-        <h3>Sample Code:</h3>
-        <code>
-&lt;h1 class="helvetica-bold"&gt;Helvetic Bold&lt;/h1&gt;
-&lt;h1 class="helvetica-bold-italic"&gt;Helvetica Bold Italic&lt;/h1&gt;
-&lt;h1 class="helvetica-standard"&gt;Helvetica&lt;/h1&gt;
-&lt;h1 class="helvetica-standard-italic"&gt;Helvetica Italic&lt;/h1&gt;
-        </code>
-
-        <h3>Rendered Element:</h3>
-        <h1 class="helvetica-bold">Helvetica Bold</h1>
-        <h1 class="helvetica-bold-italic">Helvetica Bold Italic</h1>
-        <h1 class="helvetica-standard">Helvetica</h1>
-        <h1 class="helvetica-standard-italic">Helvetica Italic</h1>
-
-      </section>
 
       <section>
         <h2>Headings</h2>
@@ -303,35 +286,30 @@
 
         <h3>Rendered Element:</h3>
 
-        <div class="example-product-list">
-          <div class="product-layout">
-            <a class="product-link" href="#">
-              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
-              <p class="product-name">Security Guards</p>
-            </a>
-          </div>
-
-          <div class="product-layout">
-            <a class="product-link"  href="#">
-              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
-              <p class="product-name">Armoured Trucks</p>
-            </a>
-          </div>
-
-          <div class="product-layout">
-            <a class="product-link"  href="#">
-              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
-              <p class="product-name">Bike Patrol</p>
-            </a>
-          </div>
-
-          <div class="product-layout">
-            <a class="product-link" href="#">
-              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
-              <p class="product-name">VIP Services</p>
-            </a>
-          </div>
+        <div class="services-column">
+          <img class="services-individual-icon" src="img/placeholder.jpg" alt="Security_Guards">
+          <h3>General Security</h3>
+          <p>Foot, bike and vehicle patrolling.</p>
         </div>
+
+        <div class="services-column">
+          <img class="services-individual-icon" src="img/placeholder.jpg" alt="Security_Guards">
+          <h3>General Security</h3>
+          <p>Foot, bike and vehicle patrolling.</p>
+        </div>
+
+        <div class="services-column">
+          <img class="services-individual-icon" src="img/placeholder.jpg" alt="Security_Guards">
+          <h3>General Security</h3>
+          <p>Foot, bike and vehicle patrolling.</p>
+        </div>
+
+        <div class="services-column">
+          <img class="services-individual-icon" src="img/placeholder.jpg" alt="Security_Guards">
+          <h3>General Security</h3>
+          <p>Foot, bike and vehicle patrolling.</p>
+        </div>
+
       </section>
 
     </section>
