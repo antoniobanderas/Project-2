@@ -1392,7 +1392,7 @@ input[type="submit"] {
     margin-right: auto;
     width: 8em;
     float: none;
-    margin: none;
+    margin: 0;
     padding-top: 1.5em;
     margin-top: 0;
   }
